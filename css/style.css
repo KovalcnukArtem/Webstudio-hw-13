@@ -1,0 +1,255 @@
+:root {
+  --main-color: #212121;
+  --second-color: #2196f3;
+
+  --third-color: #757575;
+
+  --fourth-color: #ffffff;
+
+  --fifth-color: #000000;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+}
+.header-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+}
+.header-nav-link {
+  font-weight: 500;
+  line-height: calc(16 / 14);
+}
+.header-contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(129 / 44);
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+}
+.advantages-headline {
+  font-weight: 700;
+}
+.examples-headline {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+}
+.team-headline-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+}
+.team-headline-two {
+  font-weight: 500;
+  line-height: calc(19 / 14);
+}
+.team-text {
+  line-height: calc(19 / 16);
+}
+.footer-link {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+}
+.footer-item-text {
+  line-height: calc(21 / 14);
+}
+.header-contact-link {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+}
+.header-contact-item {
+  font-weight: 500;
+  line-height: calc(16 / 14);
+}
+.header-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+}
+.portfolio-filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+}
+.portfolio-headline {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+}
+.portfolio-text {
+  line-height: calc(30 / 14);
+}
+.footer-link {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+}
+.footer-item {
+  line-height: calc(21 / 14);
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 3px solid whitesmoke;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.header-nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.header-nav-item {
+  margin-right: 20px;
+}
+
+.header-contact-list {
+  display: flex;
+  list-style: none;
+}
+
+.header-contact-item {
+  margin-right: 20px;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.advantages-list,
+.examples-list,
+.team-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.advantages-item,
+.examples-item,
+.team-item {
+  margin-right: 20px;
+}
+
+.footer {
+  padding: 20px;
+}
+.examples-headline {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.team-headline {
+  text-align: center;
+}
+
+.team-headline-title {
+  display: inline-block;
+  margin-top: 195px;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 50vh; /* Adjust height as needed */
+}
+
+.hero-title {
+  text-align: center; /* Center-align the text */
+  display: flex;
+  margin-top: 240px;
+}
+
+.hero-button {
+  margin-top: 20px; /* Adjust top margin as needed */
+  display: flex;
+  margin-bottom: 297px;
+}
+.header-nav-item {
+  margin-left: 40px;
+}
+.examples-list {
+  display: flex; /* Встановлення flex контейнера */
+  justify-content: center; /* Вирівнювання елементів по горизонталі по центру */
+}
+
+.examples-item {
+  margin: 0 5px; /* Встановлення відступів між елементами в 5px */
+  margin-top: 59px;
+}
+
+.examples-img {
+  max-width: 100%; /* Збереження пропорційності картинок */
+}
+
+.advantages-list {
+  display: flex;
+  margin-left: 70px;
+  margin-right: 15px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-item {
+  margin-right: 5px; /* Відступ між кожним елементом */
+}
+
+.team-examples {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-img {
+  width: 200px; /* Ширина зображень */
+  height: auto; /* Автоматична висота для збереження пропорцій */
+  display: flex;
+}
+
+.team-signature {
+  text-align: center;
+}
