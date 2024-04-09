@@ -39,8 +39,12 @@ body {
   font-size: 14px;
   line-height: calc(16 / 14);
 }
-.hero {
+.hero-flex {
   text-align: center;
+  width: 1600px;
+  height: 600px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .hero-title {
   font-weight: 900;
@@ -148,4 +152,111 @@ body {
 }
 .footer-two {
   margin-top: 94px;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between; /* Розташовує всі елементи в ряду, рівномірно розподіляючи простір між ними */
+  align-items: center; /* Вирівнює елементи по центру по вертикалі */
+}
+
+.header-navigation {
+  display: flex; /* Встановлюємо flex для навігаційного меню */
+}
+
+.header-contact-list {
+  display: flex; /* Встановлюємо flex для списку контактів */
+}
+
+.header-nav-list, .header-contact-list {
+  list-style: none; /* Відключаємо маркери списку */
+  margin: 0; /* Відключаємо зовнішні відступи */
+  padding: 0; /* Відключаємо внутрішні відступи */
+}
+
+.header-nav-item, .header-contact-item {
+  margin-left: 15px; /* Додаємо зовнішній відступ між елементами */
+}
+
+.header-logo {
+  margin-right: auto; /* Відштовхуємо логотип від правого краю, роблячи інші елементи ряду розтяжними */
+}
+
+.header-nav-list {
+  display: flex;
+  margin-top: 9px;
+  margin-left: 80px;
+}
+.header-logo {
+  margin-left: 50px;
+}
+.header {
+  height: 80px;
+}
+.header-contact-list {
+  margin-right: 50px;
+}
+.advantages-list {
+  display: flex;
+
+}
+.advantages {
+  height: 98px;
+  line-height: 1.71;
+}
+.examples-headline{
+  text-align: center; /* Центруємо текст у секції */
+}
+
+
+.examples-img {
+  margin-right: 30px; /* Встановлюємо відступ між картинками */
+  
+}
+
+.examples-list {
+  display: flex;
+  margin-left: 270px;
+}
+
+.examples {
+  text-align: center; /* Центруємо текст у секції */
+}
+
+.examples-content {
+  margin-top: 30px; /* Встановлюємо відстань зверху */
+}
+
+.examples-images {
+  display: flex; /* Встановлюємо flex для рядка картинок */
+  justify-content: space-between; /* Рівномірно розподіляємо простір між картинками */
+  margin-top: 30px; /* Встановлюємо відстань зверху */
+}
+
+.examples-item {
+  text-align: center; /* Центруємо текст підпису */
+}
+
+.examples-img {
+  margin-bottom: 10px; /* Встановлюємо відстань між картинками та підписами */
+}
+
+.team {
+  text-align: center; /* Центруємо текст у секції */
+}
+
+.team-list {
+  display: flex; /* Встановлюємо flex для рядка картинок */
+  justify-content: space-between; /* Рівномірно розподіляємо простір між картинками */
+  margin-top: 30px; /* Встановлюємо відстань зверху */
+  padding: 0; /* Відключаємо внутрішні відступи */
+  list-style: none; /* Відключаємо маркери списку */
+}
+
+.team-item {
+  text-align: center; /* Центруємо текст підпису */
+}
+
+.team-img {
+  margin-bottom: 34px; /* Встановлюємо відстань між картинками та підписами */
 }
