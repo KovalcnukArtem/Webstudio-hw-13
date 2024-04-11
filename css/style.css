@@ -237,6 +237,9 @@ a:hover {
   height: 98px;
   line-height: 1.71;
 }
+.advantages-text {
+  color: #757575;
+}
 
 
 /* Секція "EXAMPLES" */
@@ -296,6 +299,12 @@ a:hover {
 .team-text {
   margin-top: 10px;
   color: #757575;
+}
+
+.team-examples {
+  height: 368px;
+  width: 270px;
+  background-color: #ffffff;
 }
 
 
